@@ -36,3 +36,6 @@ java --module-path javafx-sdk\lib --add-modules javafx.fxml,javafx.controls -jar
 5. 最后执行mvn glounfx:build glounfx:nativerun。
   
    然后在target\glounfx中查看生成的本机映像（如果构建成功）
+
+## 注
+**太具体的我也忘了 步骤有问题再改（？**
