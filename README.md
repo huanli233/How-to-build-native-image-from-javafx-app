@@ -32,10 +32,10 @@ java --module-path javafx-sdk\lib --add-modules javafx.fxml,javafx.controls -jar
    ```
    然后你最好多用程序执行一下各种功能，然后退出。
 3. 将刚刚生成的native-image文件夹复制到你项目的resource/META-INF中。
-4. 然后按照仓库里的pom.xml配置GlounFX。
-5. 最后执行mvn glounfx:build glounfx:nativerun。
+4. 然后按照仓库里的pom.xml配置GluonFX。
+5. 最后执行mvn gluonfx:build gluonfx:nativerun。
   
-   然后在target\glounfx中查看生成的本机映像（如果构建成功）
+   然后在target\gluonfx中查看生成的本机映像（如果构建成功）
 
 ## 注
 **太具体的我也忘了 步骤有问题再改（？**
